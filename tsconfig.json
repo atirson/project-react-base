@@ -19,12 +19,13 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "importHelpers": true,
+    "baseUrl": "./",
     "paths": {
-      "@app/*": ["./src/app/*"],
+      "@app/*": ["./src/*"],
       "@app/components": ["./src/components"],
-      "@app/core": ["./src/core/*"],
+      "@app/core": ["./src/core"],
       "@app/assets": ["./src/assets/*"],
-      "@app/pages": ["./src/pages"],
     }
   },
   "include": [
