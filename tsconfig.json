@@ -23,9 +23,9 @@
     "baseUrl": "./",
     "paths": {
       "@app/*": ["./src/*"],
-      "@app/components": ["./src/components"],
-      "@app/core": ["./src/core"],
-      "@app/assets": ["./src/assets/*"],
+      "@app/components/*": ["./src/components/*"],
+      "@app/core/*": ["./src/core/*"],
+      "@app/assets/*": ["./src/assets/*"],
     }
   },
   "include": [
