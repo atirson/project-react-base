@@ -1,5 +1,6 @@
-import Input from '@app/components/elements/Input';
-import { Box, Typography, Button } from '@mui/material';
+import {
+  Box, Typography, Button, FormControl, TextField,
+} from '@mui/material';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
@@ -20,16 +21,20 @@ export default function FormUser() {
 
   const { errors } = formState;
 
-  const sendFormUser: SubmitHandler<{ name: string }> = (data) => {
-    console.log(data);
+  const sendFormUser: SubmitHandler<{ name: string }> = (values) => {
+    console.log(values);
     reset();
   };
 
   return (
     <Box>
       <Typography variant="h4">Form User</Typography>
-      <Input placeholder="Name" err={errors.name} {...register('name')} />
-      <Button onClick={handleSubmit(sendFormUser)}>Save</Button>
+      <Box component="form" onSubmit={handleSubmit(sendFormUser)}>
+        <FormControl>
+          <TextField error={!!errors.name} label="Name" {...register('name')} helperText={errors.name?.message} />
+        </FormControl>
+        <Button type="submit">Save</Button>
+      </Box>
     </Box>
   );
 }
