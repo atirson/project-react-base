@@ -14,3 +14,10 @@
   <li>Jest</li>
   <li>EsLint and Prettier</li>
 </ul>
+
+## Structure of folders
+
+<img src="./.github/structure.png"  />
+<br />
+
+### My  <a href="https://www.slideshare.net/RubenMarcusLuzPascho/escalando-apps-com-react-e-type-script-e-solid" target="_blank">reference</a> slides of Ruben Marcus
