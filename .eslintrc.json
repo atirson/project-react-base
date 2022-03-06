@@ -40,7 +40,8 @@
          "react/require-default-props": "off",
          "no-param-reassign": "off",
          "consistent-return": "off",
-         "no-use-before-define": "off"
+         "no-use-before-define": "off",
+         "no-undef": "off"
     },
     "settings": {
         "import/resolver": {
