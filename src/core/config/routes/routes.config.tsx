@@ -1,8 +1,8 @@
 import { RouteProps } from 'react-router-dom';
-import Users from '@app/pages/Users';
-import FormExample from '@app/pages/FormExample';
-import ContextExample from '@app/pages/ContextExample';
-import ReduxExample from '@app/pages/ReduxExample';
+import Users from '@pages/Users';
+import FormExample from '@pages/FormExample';
+import ContextExample from '@pages/ContextExample';
+import ReduxExample from '@pages/ReduxExample';
 
 export const routes: RouteProps[] = [
   {

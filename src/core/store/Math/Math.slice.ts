@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
-import getThunkStatus from '@app/core/helpers/getThunkStatus';
-import { RootState } from '@app/core/store';
+import getThunkStatus from '@core/helpers/getThunkStatus';
+import { RootState } from '@core/store';
 
 interface MathState {
   value: number;

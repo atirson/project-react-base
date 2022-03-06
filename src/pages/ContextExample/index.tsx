@@ -1,4 +1,4 @@
-import { CountProvider, useCount } from '@app/core/context/Count';
+import { CountProvider, useCount } from '@core/context/Count';
 
 function ContextComponent() {
   const { count, handleAdd } = useCount();

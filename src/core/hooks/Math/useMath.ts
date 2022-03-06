@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { AppDispatch, RootState } from '@app/core/store';
-import * as MathActions from '@app/core/store/Math/Math.slice';
+import { AppDispatch, RootState } from '@core/store';
+import * as MathActions from '@core/store/Math/Math.slice';
 
 export default function useMath() {
   const dispatch = useDispatch<AppDispatch>();

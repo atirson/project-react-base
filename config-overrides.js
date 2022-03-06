@@ -7,9 +7,10 @@ module.exports = function override(config) {
     alias: {
       ...config.alias,
       '@app': path.resolve(__dirname, 'src/'),
-      '@app/components': path.resolve(__dirname, 'src/components'),
-      '@app/core': path.resolve(__dirname, 'src/core'),
-      '@app/assets': path.resolve(__dirname, 'src/assets'),
+      '@components': path.resolve(__dirname, 'src/components'),
+      '@core': path.resolve(__dirname, 'src/core'),
+      '@assets': path.resolve(__dirname, 'src/assets'),
+      '@pages': path.resolve(__dirname, 'src/pages'),
     },
   };
   return config;

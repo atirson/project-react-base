@@ -1,4 +1,4 @@
-import { useUsers } from '@app/core/hooks/Users/useUsers';
+import { useUsers } from '@core/hooks/Users/useUsers';
 
 function Users() {
   const { data, isLoading, error } = useUsers();

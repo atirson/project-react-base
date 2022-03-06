@@ -1,4 +1,4 @@
-import useMath from '@app/core/hooks/Math/useMath';
+import useMath from '@core/hooks/Math/useMath';
 
 export default function ReduxExample() {
   const { value, handleAdd, handleSub } = useMath();
