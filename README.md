@@ -21,3 +21,5 @@
 <br />
 
 ### My  <a href="https://www.slideshare.net/RubenMarcusLuzPascho/escalando-apps-com-react-e-type-script-e-solid" target="_blank">reference</a> slides of Ruben Marcus
+
+Verison Beta
