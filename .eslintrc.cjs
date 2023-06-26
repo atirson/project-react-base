@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['@rocketseat/eslint-config/react'],
+  extends: ['@rocketseat/eslint-config/react', 'plugin:cypress/recommended'],
   overrides: [
     {
       env: {
@@ -24,5 +24,13 @@ module.exports = {
   rules: {
     indent: ['off', 'tab'],
     'import/export': 'off',
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': ['error'],
+    'react-hooks/rules-of-hooks': 'off',
+    'jsx-a11y/alt-text': 'off',
+    'react-hooks/exhaustive-deps': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
+    'no-prototype-builtins': 'off',
   },
 }

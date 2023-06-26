@@ -1,7 +1,8 @@
 [] Structure Folders
 [x] Vitest
+[] Mock + Fakers
 [] Query Client
-[] Cypress + Cucumber
+[x] Cypress + Cucumber
 [] Sonarcloud
 [] CI/CD
 [] Husky
@@ -11,3 +12,4 @@
 [] Auth Routes
 [] Test Snapshot
 [] Bundle Analyse
+[] Code Standard Definition + SCM
