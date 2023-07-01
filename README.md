@@ -1,4 +1,4 @@
-[] Structure Folders
+[x] Structure Folders
 [x] Vitest
 [] Mock + Fakers
 [] Query Client
