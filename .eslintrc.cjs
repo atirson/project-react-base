@@ -25,7 +25,7 @@ module.exports = {
     indent: ['off', 'tab'],
     'import/export': 'off',
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': ['error'],
+    '@typescript-eslint/no-unused-vars': ['warn'],
     'react-hooks/rules-of-hooks': 'off',
     'jsx-a11y/alt-text': 'off',
     'react-hooks/exhaustive-deps': 'off',

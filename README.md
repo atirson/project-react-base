@@ -13,3 +13,5 @@
 [] Test Snapshot
 [] Bundle Analyse
 [] Code Standard Definition + SCM
+[] Error Boundary
+[] Dynamic Imports
