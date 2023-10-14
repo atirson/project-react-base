@@ -1,7 +1,7 @@
 [x] Structure Folders
 [x] Vitest
-[] Mock + Fakers
-[] Query Client
+[x] Mock + Fakers
+[x] Query Client
 [x] Cypress + Cucumber
 [] Sonarcloud
 [] CI/CD
@@ -14,4 +14,4 @@
 [] Bundle Analyse
 [] Code Standard Definition + SCM
 [] Error Boundary
-[] Dynamic Imports
+[x] Path mapping

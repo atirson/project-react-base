@@ -1,5 +1,5 @@
 import React from 'react'
-import { QueryClientProvider } from '../config/config-react-query.services'
+import { QueryClientProvider } from '@config/config-react-query.services'
 
 interface Props {
   components: Array<

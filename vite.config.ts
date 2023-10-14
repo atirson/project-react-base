@@ -7,6 +7,35 @@ interface ViteConfig extends ProjectConfig {}
 
 export default defineConfig({
   plugins: [react(), eslint()],
+  base: './',
+  resolve: {
+    alias: [
+      {
+        find: '@',
+        replacement: '/src',
+      },
+      {
+        find: '@components',
+        replacement: '/src/components',
+      },
+      {
+        find: '@pages',
+        replacement: '/src/pages',
+      },
+      {
+        find: '@core',
+        replacement: '/src/core',
+      },
+      {
+        find: '@config',
+        replacement: '/src/core/config',
+      },
+      {
+        find: '@assets',
+        replacement: '/src/assets',
+      },
+    ],
+  },
   test: {
     globals: true,
     name: 'Projeto Base React - Best Pratices',

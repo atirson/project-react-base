@@ -1,0 +1,18 @@
+input ProductInput {
+  id: Int!
+  quantity: Int!
+}
+
+type TotalProducts {
+  total: Int!
+}
+
+type Mutation {
+  addProducts(
+    input: [ProductInput!]!
+  ): TotalProducts
+}
+
+type Query {
+   total: TotalProducts!
+}

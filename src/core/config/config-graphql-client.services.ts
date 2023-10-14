@@ -1,8 +1,8 @@
 import { GraphQLClient, RequestDocument } from 'graphql-request'
 import {
-  GraphQLClientRequestHeaders,
   GraphQLClientResponse,
-} from 'graphql-request/build/esm/types'
+  GraphQLClientRequestHeaders,
+} from 'node_modules/graphql-request/build/esm/types'
 
 export function responseMiddleware(
   res: GraphQLClientResponse<unknown> | Error,
