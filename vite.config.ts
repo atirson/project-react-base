@@ -3,8 +3,6 @@ import { defineConfig } from 'vite'
 import eslint from 'vite-plugin-eslint'
 import { ProjectConfig } from 'vitest'
 
-interface ViteConfig extends ProjectConfig {}
-
 export default defineConfig({
   plugins: [react(), eslint()],
   base: './',
@@ -53,4 +51,4 @@ export default defineConfig({
       reportsDirectory: '../coverage',
     },
   },
-}) as ViteConfig
+}) as ProjectConfig

@@ -3,7 +3,8 @@
 [x] Mock + Fakers
 [x] Query Client
 [x] Cypress + Cucumber
-[] Sonarcloud
+[x] Sonarcloud
+[] Stryker Mutator
 [] CI/CD
 [] Husky
 [] Lighthouse + Chunks less 244kb
@@ -13,5 +14,5 @@
 [] Test Snapshot
 [] Bundle Analyse
 [] Code Standard Definition + SCM
-[] Error Boundary
+[] Error Boundary + 404
 [x] Path mapping
